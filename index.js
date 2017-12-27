@@ -14,7 +14,6 @@ exports.handler = (event, context, callback) => {
     });
 
     // things you configure
-    var snsarn = 'arn:aws:sns:us-east-1:127362029329:bringinthewashing';
     var knownItems = ['Backyard', 'Outdoors', 'Yard', 'Bench', 'Park Bench', 'Flora', 'Plant', 'Tree', 'Park',
         'Forest', 'Grove', 'Land', 'Nature', 'Vegetation', 'Pond', 'Water', 'Blossom', 'Path',
         'Pavement', 'Cherry Blossom', 'Flora', 'Flower', 'Plant', 'Fence', 'Lilac', 'Hedge', 'Harbor',
